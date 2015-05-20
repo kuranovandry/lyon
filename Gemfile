@@ -8,6 +8,7 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
+gem 'jquery-ui-rails'
 gem 'jbuilder', '~> 2.0'
 # https://github.com/twbs/bootstrap-sass
 gem 'bootstrap-sass', '~> 3.3.4'
@@ -15,6 +16,15 @@ gem 'bootstrap-sass', '~> 3.3.4'
 gem 'haml-rails'
 # https://github.com/puma/puma
 gem 'puma'
+# https://github.com/plataformatec/devise
+gem 'devise'
+gem 'omniauth'
+gem 'omniauth-facebook'
+gem 'omniauth-twitter'
+gem 'omniauth-vkontakte'
+gem 'omniauth-google-oauth2'
+gem 'omniauth-yandex'
+gem 'omniauth-odnoklassniki'
 
 group :development, :test do
   gem 'byebug'
