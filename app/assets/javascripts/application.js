@@ -11,5 +11,11 @@
 // about supported directives.
 //
 //= require jquery
-//= require jquery_ujs
+//= require bootstrap.min.js
+//= require jquery.easing.min
+//= require classie
+//= require cbpAnimatedHeader.min
+//= require jqBootstrapValidation
+//= require contact_me
+//= require agency
 //= require_tree .

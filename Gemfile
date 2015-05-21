@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '4.2.1'
-gem 'pg'
+# gem 'pg'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -18,6 +18,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass', '~> 3.3.4'
 gem 'haml-rails'
 gem 'puma'
+# gem 'sqlite3'
+gem 'font-awesome-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
