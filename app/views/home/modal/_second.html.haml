@@ -1,0 +1,22 @@
+#portfolioModal2.portfolio-modal.modal.fade{"aria-hidden" => "true", :role => "dialog", :tabindex => "-1"}
+  .modal-content
+    .close-modal{"data-dismiss" => "modal"}
+      .lr
+        .rl
+    .container
+      .row
+        .col-lg-8.col-lg-offset-2
+          .modal-body
+            %h2 Project Heading
+            %p.item-intro.text-muted Lorem ipsum dolor sit amet consectetur.
+            = image_tag('portfolio/startup-framework-preview.png', class: 'img-centered img-responsive')
+            %p
+              %a{:href => "http://designmodo.com/startup/?u=787"} Startup Framework
+              is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.
+            %p
+              You can preview Startup Framework
+              = succeed "." do
+                %a{:href => "http://designmodo.com/startup/?u=787"} here
+            %button.btn.btn-primary{"data-dismiss" => "modal", :type => "button"}
+              %i.fa.fa-times
+              Close Project

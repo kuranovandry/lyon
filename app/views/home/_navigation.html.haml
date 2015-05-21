@@ -1,0 +1,17 @@
+.container
+  .navbar-header.page-scroll
+    %button.navbar-toggle{"data-target" => "#bs-example-navbar-collapse-1", "data-toggle" => "collapse", :type => "button"}
+      %span.sr-only Toggle navigation
+      %span.icon-bar
+      %span.icon-bar
+      %span.icon-bar
+    = link_to 'Start Bootstrap', '#page-top', class: 'navbar-brand page-scroll'
+  #bs-example-navbar-collapse-1.collapse.navbar-collapse
+    %ul.nav.navbar-nav.navbar-right
+      %li.hidden= link_to '#page-top', class: 'page-scroll'
+      %li= link_to 'Services', '#services', class: 'page-scroll'
+      %li= link_to 'Portfolio', '#portfolio', class: 'page-scroll'
+      %li= link_to 'About', '#about', class: 'page-scroll'
+      %li= link_to 'Team', '#team', class: 'page-scroll'
+      %li= link_to 'Contact', '#contact', class: 'page-scroll'
+-#%li

@@ -1,0 +1,24 @@
+#portfolioModal6.portfolio-modal.modal.fade{"aria-hidden" => "true", :role => "dialog", :tabindex => "-1"}
+  .modal-content
+    .close-modal{"data-dismiss" => "modal"}
+      .lr
+        .rl
+    .container
+      .row
+        .col-lg-8.col-lg-offset-2
+          .modal-body
+            / Project Details Go Here
+            %h2 Project Name
+            %p.item-intro.text-muted Lorem ipsum dolor sit amet consectetur.
+            = image_tag('portfolio/dreams-preview.png', class: 'img-centered img-responsive')
+            %p
+              Dreams is a free PSD web template built by
+              = succeed "." do
+                %a{:href => "https://www.behance.net/MathavanJaya"} Mathavan Jaya
+            %p
+              You can download the PSD template in this portfolio sample item at
+              = succeed "." do
+                %a{:href => "http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/"} FreebiesXpress.com
+            %button.btn.btn-primary{"data-dismiss" => "modal", :type => "button"}
+              %i.fa.fa-times
+              Close Project
